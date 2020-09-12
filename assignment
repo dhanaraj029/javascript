@@ -1,0 +1,26 @@
+<html>
+<script>
+function FillBilling(f) {
+ 
+    f.billingname.value = f.shippingname.value;
+    
+}
+</script>
+<b>Write Something in the given box</b>
+<br><br>
+<form>
+First Input Field:
+<input type="text" name="shippingname">
+<br>
+
+<input type="button" name="billingtoo" value="Copy Text" onclick="FillBilling(this.form)">
+
+<P>
+<b>Copied text</b>
+<br><br>
+Second input field:
+<input type="text" name="billingname">
+<br>
+
+</form>
+</html>
