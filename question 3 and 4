@@ -1,0 +1,23 @@
+const people = [
+    { name : "dhanaraj",
+       age : 25,
+       country : "india",
+        hobbies : ["playing","eating"]
+},
+{
+    name : "preethi",
+    age : 24,
+    country : "india",
+     hobbies : ["cooking","playing"]
+},
+{
+    name : "sneha",
+    age : 24,
+    country : "united states",
+     hobbies : ["reading books","coding"]
+}   ];
+console.log(people);
+// only those with age less then 25
+console.log(people.filter(p =>p.age<25));
+// only those with country India.
+console.log(people.filter(p =>p.country === "india"));
